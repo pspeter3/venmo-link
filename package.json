@@ -1,0 +1,17 @@
+{
+  "name": "venmo-link",
+  "description": "Venmo Link Generator",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pspeter3/venmo-link.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pspeter3/venmo-link/issues"
+  },
+  "homepage": "https://github.com/pspeter3/venmo-link#readme"
+}
