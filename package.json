@@ -4,8 +4,9 @@
   "private": true,
   "scripts": {
     "build": "parcel build",
+    "fix": "prettier --cache --write README.md 'src/**/*'",
     "start": "parcel",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "prettier --cache --check README.md 'src/**/*'"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,9 @@
   "homepage": "https://github.com/pspeter3/venmo-link#readme",
   "devDependencies": {
     "@parcel/transformer-pug": "^2.8.2",
-    "parcel": "^2.8.2"
+    "@prettier/plugin-pug": "^2.3.0",
+    "parcel": "^2.8.2",
+    "prettier": "^2.8.1"
   },
   "source": "src/index.pug"
 }
