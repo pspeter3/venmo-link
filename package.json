@@ -1,0 +1,30 @@
+{
+  "name": "venmo-link",
+  "description": "Venmo Link Generator",
+  "private": true,
+  "scripts": {
+    "build": "parcel build",
+    "fix": "prettier --cache --write README.md 'src/**/*'",
+    "start": "parcel",
+    "test": "npm run test:format && npm run test:types",
+    "test:format": "prettier --cache --check README.md 'src/**/*'",
+    "test:types": "tsc --pretty"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pspeter3/venmo-link.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pspeter3/venmo-link/issues"
+  },
+  "homepage": "https://github.com/pspeter3/venmo-link#readme",
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.8.2",
+    "@prettier/plugin-pug": "^2.3.0",
+    "parcel": "^2.8.2",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
+  },
+  "source": "src/index.pug"
+}
